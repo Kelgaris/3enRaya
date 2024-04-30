@@ -1,0 +1,92 @@
+body{
+    width: 70%;
+    margin: auto;
+    background: linear-gradient(to bottom, rgb(238, 238, 84), rgb(134, 203, 154));
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+}
+
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.celda{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 200% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(131, 140, 236);
+}
+
+.celda:hover{
+    background-color: rgb(230, 163, 235);
+}
+
+.reset{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.jugador{
+    width: 60%;
+    padding: 2%;
+}
+
+.boton_jugador{
+    border-radius: 5px;
+    border:none;
+    padding:2%
+}
+
+.jugadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.jugador_nombre1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0.5%;
+    background-color: rgb(131, 140, 236);
+    border: 1px solid black;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+}
+
+
+.jugador_nombre2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0.5%;
+    background-color: rgb(131, 140, 236);
+    border: 1px solid black;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+}
